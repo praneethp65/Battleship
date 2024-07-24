@@ -12,6 +12,7 @@ If the system hits three or more ships, it wins; otherwise, the user wins.
 The user attacks a grid where the system has deployed five hidden ships.
 The user has five attempts to guess the locations of the ships.
 If the user hits three or more ships, they win; otherwise, the system wins.
+
 # Gameplay
 # Defending Mode
 Board Creation: A for loop is used to create the 2D array for the grid.
@@ -21,6 +22,7 @@ System Attack: The system randomly selects coordinates to attack. Successful hit
 Board Creation: Similar to the defending mode, a 2D array is created for the grid.
 System Ship Deployment: Ships are randomly placed on the grid.
 User Attack: The user inputs coordinates to attack. Hits are marked with 'x', and misses are marked with '#'.
+
 # Demonstration
 # System Attacking Mode
 The grid is displayed with 'V' representing ships, 'x' for destroyed ships, and '#' for missed shots.
